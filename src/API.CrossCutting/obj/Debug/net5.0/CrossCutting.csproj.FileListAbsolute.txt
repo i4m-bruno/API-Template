@@ -1,0 +1,12 @@
+D:\API_Udemy\src\API.CrossCutting\bin\Debug\net5.0\CrossCutting.deps.json
+D:\API_Udemy\src\API.CrossCutting\bin\Debug\net5.0\CrossCutting.dll
+D:\API_Udemy\src\API.CrossCutting\bin\Debug\net5.0\ref\CrossCutting.dll
+D:\API_Udemy\src\API.CrossCutting\bin\Debug\net5.0\CrossCutting.pdb
+D:\API_Udemy\src\API.CrossCutting\obj\Debug\net5.0\CrossCutting.csprojAssemblyReference.cache
+D:\API_Udemy\src\API.CrossCutting\obj\Debug\net5.0\CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+D:\API_Udemy\src\API.CrossCutting\obj\Debug\net5.0\CrossCutting.AssemblyInfoInputs.cache
+D:\API_Udemy\src\API.CrossCutting\obj\Debug\net5.0\CrossCutting.AssemblyInfo.cs
+D:\API_Udemy\src\API.CrossCutting\obj\Debug\net5.0\CrossCutting.csproj.CoreCompileInputs.cache
+D:\API_Udemy\src\API.CrossCutting\obj\Debug\net5.0\CrossCutting.dll
+D:\API_Udemy\src\API.CrossCutting\obj\Debug\net5.0\ref\CrossCutting.dll
+D:\API_Udemy\src\API.CrossCutting\obj\Debug\net5.0\CrossCutting.pdb

@@ -1,0 +1,12 @@
+D:\API_Udemy\src\API.Service\bin\Debug\net5.0\Service.deps.json
+D:\API_Udemy\src\API.Service\bin\Debug\net5.0\Service.dll
+D:\API_Udemy\src\API.Service\bin\Debug\net5.0\ref\Service.dll
+D:\API_Udemy\src\API.Service\bin\Debug\net5.0\Service.pdb
+D:\API_Udemy\src\API.Service\obj\Debug\net5.0\Service.csprojAssemblyReference.cache
+D:\API_Udemy\src\API.Service\obj\Debug\net5.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\API_Udemy\src\API.Service\obj\Debug\net5.0\Service.AssemblyInfoInputs.cache
+D:\API_Udemy\src\API.Service\obj\Debug\net5.0\Service.AssemblyInfo.cs
+D:\API_Udemy\src\API.Service\obj\Debug\net5.0\Service.csproj.CoreCompileInputs.cache
+D:\API_Udemy\src\API.Service\obj\Debug\net5.0\Service.dll
+D:\API_Udemy\src\API.Service\obj\Debug\net5.0\ref\Service.dll
+D:\API_Udemy\src\API.Service\obj\Debug\net5.0\Service.pdb
