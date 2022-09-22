@@ -10,15 +10,21 @@ namespace API.Application.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
+        private IUserService _service;
+        public UsersController(IUserService service)
+        {
+            _service = service;
+        }
+
         [HttpGet]
-        public async Task<ActionResult> List([FromServices] IUserService service)
+        public async Task<ActionResult> List()
         {
             if(!ModelState.IsValid)
                 return BadRequest(ModelState);
 
             try
             {
-                return Ok(await service.List());
+                return Ok(await _service.List());
             }
             catch(ArgumentException ex)
             {
