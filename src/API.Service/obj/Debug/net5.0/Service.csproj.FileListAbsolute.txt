@@ -10,10 +10,8 @@ D:\API_Udemy\src\API.Service\obj\Debug\net5.0\Service.csproj.CoreCompileInputs.c
 D:\API_Udemy\src\API.Service\obj\Debug\net5.0\Service.dll
 D:\API_Udemy\src\API.Service\obj\Debug\net5.0\ref\Service.dll
 D:\API_Udemy\src\API.Service\obj\Debug\net5.0\Service.pdb
-D:\API_Udemy\src\API.Service\bin\Debug\net5.0\CrossCutting.dll
 D:\API_Udemy\src\API.Service\bin\Debug\net5.0\Data.dll
 D:\API_Udemy\src\API.Service\bin\Debug\net5.0\Domain.dll
 D:\API_Udemy\src\API.Service\bin\Debug\net5.0\Domain.pdb
 D:\API_Udemy\src\API.Service\bin\Debug\net5.0\Data.pdb
-D:\API_Udemy\src\API.Service\bin\Debug\net5.0\CrossCutting.pdb
 D:\API_Udemy\src\API.Service\obj\Debug\net5.0\Service.csproj.CopyComplete
