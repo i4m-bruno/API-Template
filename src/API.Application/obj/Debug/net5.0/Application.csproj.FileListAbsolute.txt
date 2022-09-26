@@ -66,3 +66,7 @@ D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Data.pdb
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\ref\Application.dll
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.csprojAssemblyReference.cache
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\staticwebassets\Application.StaticWebAssets.xml
+D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\API_Udemy\src\API.Application\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
