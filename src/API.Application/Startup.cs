@@ -1,3 +1,4 @@
+using System;
 using API.CrossCutting.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -27,7 +28,20 @@ namespace Application
             
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Application", Version = "v1" });
+                c.SwaggerDoc(
+                                    "v1", new OpenApiInfo 
+                                    { 
+                                        Title = "API Template", 
+                                        Version = "v1",
+                                        Description = "Template para projetos de API, com arquitetura DDD e alguns patterns", 
+                                        Contact = new OpenApiContact
+                                        {
+                                            Name = "Bruno Rodrigues Dos Santos Cardoso",
+                                            Email = "ossbruno@outlook.com",
+                                            Url = new Uri("https://www.linkedin.com/in/bruno-rodrigues-807a001b1/")
+                                        }
+                                    }
+                            );
             });
         }
 
@@ -38,7 +52,13 @@ namespace Application
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Application v1"));
+
+                app.UseSwaggerUI(c => 
+                                    {
+                                        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Api Template");
+                                        c.RoutePrefix = string.Empty;
+                                    }
+                                );
             }
 
             app.UseRouting();
