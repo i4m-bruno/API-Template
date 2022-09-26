@@ -63,6 +63,6 @@ D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Domain.pdb
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\CrossCutting.pdb
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Service.pdb
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Data.pdb
-D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Application.StaticWebAssets.xml
-D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.csproj.AssemblyReference.cache
-D:\API_Udemy\src\API.Application\obj\Debug\net5.0\refint\Application.dll
+D:\API_Udemy\src\API.Application\bin\Debug\net5.0\ref\Application.dll
+D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.csprojAssemblyReference.cache
+D:\API_Udemy\src\API.Application\obj\Debug\net5.0\staticwebassets\Application.StaticWebAssets.xml
