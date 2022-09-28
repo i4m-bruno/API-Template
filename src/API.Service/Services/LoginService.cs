@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using API.Domain.Dtos;
 using API.Domain.entities;
 using API.Domain.interfaces.Services.User;
 using API.Domain.repository;
@@ -14,7 +15,7 @@ namespace API.Service.Services
             _userRepo = userRepo;   
         }
 
-        public async Task<object> FindByLogin(UserEntity user)
+        public async Task<object> FindByLogin(LoginDto user)
         {
             var baseUser = new UserEntity();
 
