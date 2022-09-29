@@ -58,7 +58,7 @@ namespace API.Service.Services
 
                 var token = CreateToken(identity,createDate,expirationDate);
 
-                return SuccessResponse(createDate,expirationDate,token,user);
+                return SuccessResponse(createDate,expirationDate,token,baseUser);
             }
 
             return null;
@@ -82,7 +82,7 @@ namespace API.Service.Services
             return token;
         }
 
-        private object SuccessResponse(DateTime createDate, DateTime expirationDate, object token, LoginDto user)
+        private object SuccessResponse(DateTime createDate, DateTime expirationDate, object token, UserEntity user)
         {
             return new 
             {
@@ -90,7 +90,8 @@ namespace API.Service.Services
                 created = createDate.ToString("yyyy-MM-dd HH:mm:ss"),
                 expires = expirationDate.ToString("yyyy-MM-dd HH:mm:ss"),
                 accessToken = token,
-                userName = user.Email,
+                userName = user.Name,
+                mail = user.Email,
                 message = "Logado com sucesso"
             };
         }

@@ -1,6 +1,8 @@
 using System;
+using API.Application.Configs;
 using API.CrossCutting.DependencyInjection;
 using API.Domain.Security;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -34,6 +36,9 @@ namespace Application
             new ConfigureFromConfigurationOptions<TokenConfigurations> // configura servico a partir de appSettings.json
                         (Configuration.GetSection("TokenConfigurations"))
                         .Configure(tokenConfig);
+
+            var bearerConfig = new BearerConfig(services,signingConfig,tokenConfig);
+            bearerConfig.AddAuth();            
 
             services.AddSingleton(tokenConfig);
 

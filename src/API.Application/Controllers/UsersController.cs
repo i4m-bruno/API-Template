@@ -3,12 +3,14 @@ using System.Net;
 using System.Threading.Tasks;
 using API.Domain.entities;
 using API.Domain.interfaces.Services.User;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Application.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize("Bearer")]
     public class UsersController : ControllerBase
     {
         private IUserService _service;
