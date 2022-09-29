@@ -1,10 +1,12 @@
 using System;
 using API.CrossCutting.DependencyInjection;
+using API.Domain.Security;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 
 namespace Application
@@ -23,6 +25,17 @@ namespace Application
         {
             ConfigureService.ConfigureDependenciesService(services);
             ConfigureRepository.ConfigureDependenciesRepository(services);
+
+            var signingConfig = new SigningConfigurations();
+            services.AddSingleton(signingConfig);
+
+            var tokenConfig = new TokenConfigurations();
+
+            new ConfigureFromConfigurationOptions<TokenConfigurations> // configura servico a partir de appSettings.json
+                        (Configuration.GetSection("TokenConfigurations"))
+                        .Configure(tokenConfig);
+
+            services.AddSingleton(tokenConfig);
 
             services.AddControllers();
             
