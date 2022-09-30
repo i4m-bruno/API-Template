@@ -1,2 +1,5 @@
-# API Template .NET Core 5
-#Pattern DDD
+# API Template .NETCore
+
+*Pattern DDD
+*Autenticação Jwt Bearer
+*Clean Code
