@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using API.Application.Configs;
 using API.CrossCutting.DependencyInjection;
 using API.Domain.Security;
@@ -60,6 +61,25 @@ namespace Application
                                         }
                                     }
                             );
+                
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme{
+                    Description = "Entre com o token jwt",
+                    Name = "Authorization",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey
+                });
+
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement{
+                    {
+                        new OpenApiSecurityScheme {
+                                Reference = new OpenApiReference {
+                                    Id = "Bearer",
+                                    Type = ReferenceType.SecurityScheme
+                            }                          
+                        }, 
+                        new List<string>()
+                    }
+                });
             });
         }
 
