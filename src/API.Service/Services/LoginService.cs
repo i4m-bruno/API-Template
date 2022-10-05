@@ -90,7 +90,7 @@ namespace API.Service.Services
                 created = createDate.ToString("yyyy-MM-dd HH:mm:ss"),
                 expires = expirationDate.ToString("yyyy-MM-dd HH:mm:ss"),
                 accessToken = token,
-                userName = user.Name,
+                userName = user.Nome,
                 mail = user.Email,
                 message = "Logado com sucesso"
             };

@@ -37,11 +37,14 @@ namespace Application
             new ConfigureFromConfigurationOptions<TokenConfigurations> // configura servico a partir de appSettings.json
                         (Configuration.GetSection("TokenConfigurations"))
                         .Configure(tokenConfig);
+            
+            services.AddSingleton(tokenConfig);
 
             var bearerConfig = new BearerConfig(services,signingConfig,tokenConfig);
-            bearerConfig.AddAuth();            
+            bearerConfig.AddAuth();
 
-            services.AddSingleton(tokenConfig);
+            var mapConfig = new MapperConfig(services);
+            mapConfig.ConfigureMapper();            
 
             services.AddControllers();
             

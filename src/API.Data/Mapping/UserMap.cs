@@ -19,7 +19,7 @@ namespace API.Data.Mapping
             builder.Property(u => u.Email)
                     .HasMaxLength(100);
 
-            builder.Property(u => u.Name)
+            builder.Property(u => u.Nome)
                     .IsRequired()
                     .HasMaxLength(60);
         }

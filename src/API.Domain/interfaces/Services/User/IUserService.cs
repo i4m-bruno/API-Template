@@ -1,17 +1,16 @@
-
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using API.Domain.entities;
+using API.Domain.Dtos.User;
 
 namespace API.Domain.interfaces.Services.User
 {
     public interface IUserService
     {
-        Task<UserEntity> Get (Guid id);        
-        Task<IEnumerable<UserEntity>> List ();        
-        Task<UserEntity> Post (UserEntity user);        
-        Task<UserEntity> Put (UserEntity user);        
+        Task<UserDto> Get (Guid id);        
+        Task<IEnumerable<UserDto>> List ();        
+        Task<UserDtoCreateResult> Post (UserDtoCreate user);        
+        Task<UserDtoUpdateResult> Put (UserDtoUpdate user);        
         Task<bool> Delete (Guid id);        
     }
 }

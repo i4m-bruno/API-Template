@@ -1,7 +1,4 @@
-
-
 using System;
-
 namespace API.Domain.Dtos.User
 {
     public class UserDtoCreateResult
