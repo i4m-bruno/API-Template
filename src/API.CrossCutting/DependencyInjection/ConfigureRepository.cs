@@ -1,3 +1,4 @@
+using System;
 using API.Data.Context;
 using API.Data.Implementations;
 using API.Data.Repository;
@@ -12,8 +13,14 @@ namespace API.CrossCutting.DependencyInjection
     {
         public static void ConfigureDependenciesRepository(IServiceCollection service)
         {
-            service.AddDbContext<MyContext>( options =>
-                options.UseSqlServer("Server=BRUNO_PC\\BRUNO_SQLEXPRESS;Database=dbApi;User Id=sa;Password=bruno-9211;"));
+            if(Environment.GetEnvironmentVariable("DATABASE").ToLower() == "sqlserver")
+            {
+                service.AddDbContext<MyContext>( options =>
+                    options.UseSqlServer(Environment.GetEnvironmentVariable("DB_CON")));
+            } else {
+                service.AddDbContext<MyContext>( options =>
+                    options.UseMySql(Environment.GetEnvironmentVariable("DB_CON")));
+            }
 
             service.AddScoped(typeof (IRepository<>), typeof (BaseRepository<>));
             service.AddScoped<IUserRepository, UserImplementation>();
