@@ -4,7 +4,6 @@ using API.Application.Configs;
 using API.CrossCutting.DependencyInjection;
 using API.Data.Context;
 using API.Domain.Security;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;

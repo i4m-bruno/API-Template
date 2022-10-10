@@ -1,0 +1,5 @@
+D:\API_Udemy\src\Api.Data.Test\obj\Debug\net5.0\Api.Data.Test.csprojAssemblyReference.cache
+D:\API_Udemy\src\Api.Data.Test\obj\Debug\net5.0\Api.Data.Test.GeneratedMSBuildEditorConfig.editorconfig
+D:\API_Udemy\src\Api.Data.Test\obj\Debug\net5.0\Api.Data.Test.AssemblyInfoInputs.cache
+D:\API_Udemy\src\Api.Data.Test\obj\Debug\net5.0\Api.Data.Test.AssemblyInfo.cs
+D:\API_Udemy\src\Api.Data.Test\obj\Debug\net5.0\Api.Data.Test.csproj.CoreCompileInputs.cache
