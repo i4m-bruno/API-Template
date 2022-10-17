@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "bukRCtBQ9w4b6OyPHGA3gJ1I868ynTLRwwhH+tB+PbTvafW9qxJHmaGi64xUIqOP37V9SV0/BAE1q97+UAxgBw==",
+  "dgSpecHash": "fswMLl2Ukpup5CsGysP3Hjet5I06kRo5yDwXYn8P++1XS1rHNc8M6sXp9Du9WX+ZhxizUFrXKoPFt5k035TtrA==",
   "success": true,
   "projectFilePath": "D:\\API_Udemy\\src\\Api.Data.Test\\Api.Data.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ossBr\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\ossBr\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
     "C:\\Users\\ossBr\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
+    "C:\\Users\\ossBr\\.nuget\\packages\\faker.netcore\\1.0.2\\faker.netcore.1.0.2.nupkg.sha512",
     "C:\\Users\\ossBr\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.17\\microsoft.aspnetcore.authentication.jwtbearer.5.0.17.nupkg.sha512",
     "C:\\Users\\ossBr\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ossBr\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
