@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "8P3bzJB9i+fP50ayxXPpa55LJalB5EcWlfP4CAjunWRLAQXviyKe9IGn3j7iZ3uu1xCI2JMabVURS4StVuYS/Q==",
+  "dgSpecHash": "lqgQhlrhP13XK6vYrbnfT04ip/JbIEbBK26ZUvUVHd3oQTevv9UuiYnjt4vtZMqxzCpJB7H3xDnXJ7NEsVnneQ==",
   "success": true,
   "projectFilePath": "D:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ossBr\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
-    "C:\\Users\\ossBr\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\ossBr\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\ossBr\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ossBr\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\ossBr\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

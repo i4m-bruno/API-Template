@@ -5,6 +5,7 @@ D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Application.deps.json
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Application.runtimeconfig.json
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Application.runtimeconfig.dev.json
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Application.dll
+D:\API_Udemy\src\API.Application\bin\Debug\net5.0\ref\Application.dll
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Application.pdb
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\AutoMapper.dll
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
@@ -17,6 +18,7 @@ D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
@@ -50,6 +52,7 @@ D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Domain.pdb
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\CrossCutting.pdb
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Service.pdb
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Data.pdb
+D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.csprojAssemblyReference.cache
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.AssemblyInfoInputs.cache
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.AssemblyInfo.cs
@@ -57,6 +60,7 @@ D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.csproj.CoreCompile
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.MvcApplicationPartsAssemblyInfo.cs
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.MvcApplicationPartsAssemblyInfo.cache
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\staticwebassets\Application.StaticWebAssets.Manifest.cache
+D:\API_Udemy\src\API.Application\obj\Debug\net5.0\staticwebassets\Application.StaticWebAssets.xml
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\scopedcss\bundle\Application.styles.css
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.RazorTargetAssemblyInfo.cache
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.csproj.CopyComplete
@@ -64,7 +68,3 @@ D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.dll
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\ref\Application.dll
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.pdb
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.genruntimeconfig.cache
-D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
-d:\API_Udemy\src\API.Application\bin\Debug\net5.0\ref\Application.dll
-d:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.csprojAssemblyReference.cache
-d:\API_Udemy\src\API.Application\obj\Debug\net5.0\staticwebassets\Application.StaticWebAssets.xml

@@ -58,7 +58,6 @@ namespace Api.Data.Test
 
                 //testando exists
                 var resultExist = await _repository.ExistAsync(result.Id);
-                Assert.NotNull(resultExist);
                 Assert.True(resultExist);
 
                 //testando findByLogin

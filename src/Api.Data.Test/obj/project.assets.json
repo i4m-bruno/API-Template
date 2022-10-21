@@ -15,12 +15,11 @@
           "lib/netstandard2.0/AutoMapper.dll": {}
         }
       },
-      "AutoMapper.Extensions.Microsoft.DependencyInjection/8.0.1": {
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
         "type": "package",
         "dependencies": {
-          "AutoMapper": "[10.0.0, 11.0.0)",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0",
-          "Microsoft.Extensions.Options": "3.0.0"
+          "AutoMapper": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
         },
         "compile": {
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
@@ -2573,7 +2572,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "AutoMapper": "10.1.1",
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
           "Data": "1.0.0",
           "Domain": "1.0.0",
           "Service": "1.0.0"
@@ -2648,17 +2647,17 @@
         "lib/netstandard2.0/AutoMapper.xml"
       ]
     },
-    "AutoMapper.Extensions.Microsoft.DependencyInjection/8.0.1": {
-      "sha512": "hhUzmc8Ld7wCuVHJFodsxtPmFqBAhB6nUNQUgaMF3uamQdxOLxntG0dwv+5ApC67GABa8Oay8MEYGg5IgVZP1Q==",
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
+      "sha512": "szI4yeRIM7GWe9JyekW0dKYehPB0t6M+I55fPeCebN6PhS7zQZa0eG3bgOnOx+eP3caSNoE7KEJs2rk7MLsh8w==",
       "type": "package",
-      "path": "automapper.extensions.microsoft.dependencyinjection/8.0.1",
+      "path": "automapper.extensions.microsoft.dependencyinjection/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
+        "automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
         "automapper.extensions.microsoft.dependencyinjection.nuspec",
-        "icon.png",
-        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
+        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
+        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.pdb"
       ]
     },
     "coverlet.collector/1.3.0": {
@@ -8429,11 +8428,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\API_Udemy\\src\\Api.Data.Test\\Api.Data.Test.csproj",
+      "projectUniqueName": "d:\\API_Udemy\\src\\Api.Data.Test\\Api.Data.Test.csproj",
       "projectName": "Api.Data.Test",
-      "projectPath": "D:\\API_Udemy\\src\\Api.Data.Test\\Api.Data.Test.csproj",
+      "projectPath": "d:\\API_Udemy\\src\\Api.Data.Test\\Api.Data.Test.csproj",
       "packagesPath": "C:\\Users\\ossBr\\.nuget\\packages\\",
-      "outputPath": "D:\\API_Udemy\\src\\Api.Data.Test\\obj\\",
+      "outputPath": "d:\\API_Udemy\\src\\Api.Data.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8453,17 +8452,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\API_Udemy\\src\\API.Application\\Application.csproj": {
-              "projectPath": "D:\\API_Udemy\\src\\API.Application\\Application.csproj"
+            "d:\\API_Udemy\\src\\API.Application\\Application.csproj": {
+              "projectPath": "d:\\API_Udemy\\src\\API.Application\\Application.csproj"
             },
-            "D:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj": {
-              "projectPath": "D:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj"
+            "d:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj": {
+              "projectPath": "d:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj"
             },
-            "D:\\API_Udemy\\src\\API.Data\\Data.csproj": {
-              "projectPath": "D:\\API_Udemy\\src\\API.Data\\Data.csproj"
+            "d:\\API_Udemy\\src\\API.Data\\Data.csproj": {
+              "projectPath": "d:\\API_Udemy\\src\\API.Data\\Data.csproj"
             },
-            "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
-              "projectPath": "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
+            "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
+              "projectPath": "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
             }
           }
         }
@@ -8522,7 +8521,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
       }
     }
   }

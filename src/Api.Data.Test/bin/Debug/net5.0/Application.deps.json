@@ -344,16 +344,15 @@
           "lib/netstandard2.0/AutoMapper.dll": {}
         }
       },
-      "AutoMapper.Extensions.Microsoft.DependencyInjection/8.0.1": {
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.29",
-          "Microsoft.Extensions.Options": "3.1.29"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.29"
         },
         "runtime": {
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1.0"
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "7.0.0.0"
           }
         },
         "compile": {
@@ -1355,7 +1354,7 @@
       "CrossCutting/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1",
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
           "Data": "1.0.0",
           "Domain": "1.0.0",
           "Service": "1.0.0"
@@ -1394,7 +1393,7 @@
       "Service/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1",
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
           "Data": "1.0.0",
           "Domain": "1.0.0"
         },
@@ -3118,12 +3117,12 @@
       "path": "automapper/10.1.1",
       "hashPath": "automapper.10.1.1.nupkg.sha512"
     },
-    "AutoMapper.Extensions.Microsoft.DependencyInjection/8.0.1": {
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hhUzmc8Ld7wCuVHJFodsxtPmFqBAhB6nUNQUgaMF3uamQdxOLxntG0dwv+5ApC67GABa8Oay8MEYGg5IgVZP1Q==",
-      "path": "automapper.extensions.microsoft.dependencyinjection/8.0.1",
-      "hashPath": "automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512"
+      "sha512": "sha512-szI4yeRIM7GWe9JyekW0dKYehPB0t6M+I55fPeCebN6PhS7zQZa0eG3bgOnOx+eP3caSNoE7KEJs2rk7MLsh8w==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/7.0.0",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.17": {
       "type": "package",

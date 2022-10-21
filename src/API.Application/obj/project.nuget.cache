@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "t41PlCNaiA9c6E7gLUN0xnfrppaRvRiM4M4Qfedrnh9cBvnvNFrmAK+pFK2qHrHdlw+opcvfcWZ8EOo+z9KtGw==",
+  "dgSpecHash": "OOMDcthdW1Uu709gudRAlLqAqhomAlaQb+swi3Mtyd6TzWWyKrB98O2msqza4KnUu5B9G2IvUf9NCLeirh77wQ==",
   "success": true,
-  "projectFilePath": "D:\\API_Udemy\\src\\API.Application\\Application.csproj",
+  "projectFilePath": "d:\\API_Udemy\\src\\API.Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ossBr\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
-    "C:\\Users\\ossBr\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\ossBr\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\ossBr\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.17\\microsoft.aspnetcore.authentication.jwtbearer.5.0.17.nupkg.sha512",
     "C:\\Users\\ossBr\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ossBr\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

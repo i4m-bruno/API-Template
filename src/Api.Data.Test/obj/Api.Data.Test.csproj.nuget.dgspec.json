@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\API_Udemy\\src\\Api.Data.Test\\Api.Data.Test.csproj": {}
+    "d:\\API_Udemy\\src\\Api.Data.Test\\Api.Data.Test.csproj": {}
   },
   "projects": {
-    "D:\\API_Udemy\\src\\API.Application\\Application.csproj": {
+    "d:\\API_Udemy\\src\\API.Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\API_Udemy\\src\\API.Application\\Application.csproj",
+        "projectUniqueName": "d:\\API_Udemy\\src\\API.Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\API_Udemy\\src\\API.Application\\Application.csproj",
+        "projectPath": "d:\\API_Udemy\\src\\API.Application\\Application.csproj",
         "packagesPath": "C:\\Users\\ossBr\\.nuget\\packages\\",
-        "outputPath": "D:\\API_Udemy\\src\\API.Application\\obj\\",
+        "outputPath": "d:\\API_Udemy\\src\\API.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,14 +31,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj": {
-                "projectPath": "D:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj"
+              "d:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj": {
+                "projectPath": "d:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj"
               },
-              "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
-                "projectPath": "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
+              "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
+                "projectPath": "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
               },
-              "D:\\API_Udemy\\src\\API.Service\\Service.csproj": {
-                "projectPath": "D:\\API_Udemy\\src\\API.Service\\Service.csproj"
+              "d:\\API_Udemy\\src\\API.Service\\Service.csproj": {
+                "projectPath": "d:\\API_Udemy\\src\\API.Service\\Service.csproj"
               }
             }
           }
@@ -80,18 +80,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj": {
+    "d:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj",
+        "projectUniqueName": "d:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj",
         "projectName": "CrossCutting",
-        "projectPath": "D:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj",
+        "projectPath": "d:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj",
         "packagesPath": "C:\\Users\\ossBr\\.nuget\\packages\\",
-        "outputPath": "D:\\API_Udemy\\src\\API.CrossCutting\\obj\\",
+        "outputPath": "d:\\API_Udemy\\src\\API.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -111,14 +111,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\API_Udemy\\src\\API.Data\\Data.csproj": {
-                "projectPath": "D:\\API_Udemy\\src\\API.Data\\Data.csproj"
+              "d:\\API_Udemy\\src\\API.Data\\Data.csproj": {
+                "projectPath": "d:\\API_Udemy\\src\\API.Data\\Data.csproj"
               },
-              "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
-                "projectPath": "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
+              "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
+                "projectPath": "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
               },
-              "D:\\API_Udemy\\src\\API.Service\\Service.csproj": {
-                "projectPath": "D:\\API_Udemy\\src\\API.Service\\Service.csproj"
+              "d:\\API_Udemy\\src\\API.Service\\Service.csproj": {
+                "projectPath": "d:\\API_Udemy\\src\\API.Service\\Service.csproj"
               }
             }
           }
@@ -139,7 +139,7 @@
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -157,18 +157,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\API_Udemy\\src\\Api.Data.Test\\Api.Data.Test.csproj": {
+    "d:\\API_Udemy\\src\\Api.Data.Test\\Api.Data.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\API_Udemy\\src\\Api.Data.Test\\Api.Data.Test.csproj",
+        "projectUniqueName": "d:\\API_Udemy\\src\\Api.Data.Test\\Api.Data.Test.csproj",
         "projectName": "Api.Data.Test",
-        "projectPath": "D:\\API_Udemy\\src\\Api.Data.Test\\Api.Data.Test.csproj",
+        "projectPath": "d:\\API_Udemy\\src\\Api.Data.Test\\Api.Data.Test.csproj",
         "packagesPath": "C:\\Users\\ossBr\\.nuget\\packages\\",
-        "outputPath": "D:\\API_Udemy\\src\\Api.Data.Test\\obj\\",
+        "outputPath": "d:\\API_Udemy\\src\\Api.Data.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -188,17 +188,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\API_Udemy\\src\\API.Application\\Application.csproj": {
-                "projectPath": "D:\\API_Udemy\\src\\API.Application\\Application.csproj"
+              "d:\\API_Udemy\\src\\API.Application\\Application.csproj": {
+                "projectPath": "d:\\API_Udemy\\src\\API.Application\\Application.csproj"
               },
-              "D:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj": {
-                "projectPath": "D:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj"
+              "d:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj": {
+                "projectPath": "d:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj"
               },
-              "D:\\API_Udemy\\src\\API.Data\\Data.csproj": {
-                "projectPath": "D:\\API_Udemy\\src\\API.Data\\Data.csproj"
+              "d:\\API_Udemy\\src\\API.Data\\Data.csproj": {
+                "projectPath": "d:\\API_Udemy\\src\\API.Data\\Data.csproj"
               },
-              "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
-                "projectPath": "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
+              "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
+                "projectPath": "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
               }
             }
           }
@@ -257,18 +257,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\API_Udemy\\src\\API.Data\\Data.csproj": {
+    "d:\\API_Udemy\\src\\API.Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\API_Udemy\\src\\API.Data\\Data.csproj",
+        "projectUniqueName": "d:\\API_Udemy\\src\\API.Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "D:\\API_Udemy\\src\\API.Data\\Data.csproj",
+        "projectPath": "d:\\API_Udemy\\src\\API.Data\\Data.csproj",
         "packagesPath": "C:\\Users\\ossBr\\.nuget\\packages\\",
-        "outputPath": "D:\\API_Udemy\\src\\API.Data\\obj\\",
+        "outputPath": "d:\\API_Udemy\\src\\API.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -288,8 +288,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
-                "projectPath": "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
+              "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
+                "projectPath": "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
               }
             }
           }
@@ -340,18 +340,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
+    "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj",
+        "projectUniqueName": "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj",
+        "projectPath": "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\ossBr\\.nuget\\packages\\",
-        "outputPath": "D:\\API_Udemy\\src\\API.Domain\\obj\\",
+        "outputPath": "d:\\API_Udemy\\src\\API.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -403,18 +403,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\API_Udemy\\src\\API.Service\\Service.csproj": {
+    "d:\\API_Udemy\\src\\API.Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\API_Udemy\\src\\API.Service\\Service.csproj",
+        "projectUniqueName": "d:\\API_Udemy\\src\\API.Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "D:\\API_Udemy\\src\\API.Service\\Service.csproj",
+        "projectPath": "d:\\API_Udemy\\src\\API.Service\\Service.csproj",
         "packagesPath": "C:\\Users\\ossBr\\.nuget\\packages\\",
-        "outputPath": "D:\\API_Udemy\\src\\API.Service\\obj\\",
+        "outputPath": "d:\\API_Udemy\\src\\API.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -434,11 +434,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\API_Udemy\\src\\API.Data\\Data.csproj": {
-                "projectPath": "D:\\API_Udemy\\src\\API.Data\\Data.csproj"
+              "d:\\API_Udemy\\src\\API.Data\\Data.csproj": {
+                "projectPath": "d:\\API_Udemy\\src\\API.Data\\Data.csproj"
               },
-              "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
-                "projectPath": "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
+              "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
+                "projectPath": "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
               }
             }
           }
@@ -477,7 +477,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
         }
       }
     }
