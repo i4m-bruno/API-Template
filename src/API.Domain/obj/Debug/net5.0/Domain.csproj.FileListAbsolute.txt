@@ -8,4 +8,4 @@ D:\API_Udemy\src\API.Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cac
 D:\API_Udemy\src\API.Domain\obj\Debug\net5.0\Domain.dll
 D:\API_Udemy\src\API.Domain\obj\Debug\net5.0\ref\Domain.dll
 D:\API_Udemy\src\API.Domain\obj\Debug\net5.0\Domain.pdb
-d:\API_Udemy\src\API.Domain\bin\Debug\net5.0\ref\Domain.dll
+D:\API_Udemy\src\API.Domain\bin\Debug\net5.0\ref\Domain.dll

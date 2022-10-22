@@ -8428,11 +8428,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\API_Udemy\\src\\Api.Data.Test\\Api.Data.Test.csproj",
+      "projectUniqueName": "D:\\API_Udemy\\src\\Api.Data.Test\\Api.Data.Test.csproj",
       "projectName": "Api.Data.Test",
-      "projectPath": "d:\\API_Udemy\\src\\Api.Data.Test\\Api.Data.Test.csproj",
+      "projectPath": "D:\\API_Udemy\\src\\Api.Data.Test\\Api.Data.Test.csproj",
       "packagesPath": "C:\\Users\\ossBr\\.nuget\\packages\\",
-      "outputPath": "d:\\API_Udemy\\src\\Api.Data.Test\\obj\\",
+      "outputPath": "D:\\API_Udemy\\src\\Api.Data.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8452,17 +8452,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "d:\\API_Udemy\\src\\API.Application\\Application.csproj": {
-              "projectPath": "d:\\API_Udemy\\src\\API.Application\\Application.csproj"
+            "D:\\API_Udemy\\src\\API.Application\\Application.csproj": {
+              "projectPath": "D:\\API_Udemy\\src\\API.Application\\Application.csproj"
             },
-            "d:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj": {
-              "projectPath": "d:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj"
+            "D:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj": {
+              "projectPath": "D:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj"
             },
-            "d:\\API_Udemy\\src\\API.Data\\Data.csproj": {
-              "projectPath": "d:\\API_Udemy\\src\\API.Data\\Data.csproj"
+            "D:\\API_Udemy\\src\\API.Data\\Data.csproj": {
+              "projectPath": "D:\\API_Udemy\\src\\API.Data\\Data.csproj"
             },
-            "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
-              "projectPath": "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
+            "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
+              "projectPath": "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
             }
           }
         }

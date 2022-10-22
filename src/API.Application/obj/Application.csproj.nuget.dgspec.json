@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\API_Udemy\\src\\API.Application\\Application.csproj": {}
+    "D:\\API_Udemy\\src\\API.Application\\Application.csproj": {}
   },
   "projects": {
-    "d:\\API_Udemy\\src\\API.Application\\Application.csproj": {
+    "D:\\API_Udemy\\src\\API.Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\API_Udemy\\src\\API.Application\\Application.csproj",
+        "projectUniqueName": "D:\\API_Udemy\\src\\API.Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "d:\\API_Udemy\\src\\API.Application\\Application.csproj",
+        "projectPath": "D:\\API_Udemy\\src\\API.Application\\Application.csproj",
         "packagesPath": "C:\\Users\\ossBr\\.nuget\\packages\\",
-        "outputPath": "d:\\API_Udemy\\src\\API.Application\\obj\\",
+        "outputPath": "D:\\API_Udemy\\src\\API.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,14 +31,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "d:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj": {
-                "projectPath": "d:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj"
+              "D:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj": {
+                "projectPath": "D:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj"
               },
-              "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
-                "projectPath": "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
+              "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
+                "projectPath": "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
               },
-              "d:\\API_Udemy\\src\\API.Service\\Service.csproj": {
-                "projectPath": "d:\\API_Udemy\\src\\API.Service\\Service.csproj"
+              "D:\\API_Udemy\\src\\API.Service\\Service.csproj": {
+                "projectPath": "D:\\API_Udemy\\src\\API.Service\\Service.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "d:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj": {
+    "D:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj",
+        "projectUniqueName": "D:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj",
         "projectName": "CrossCutting",
-        "projectPath": "d:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj",
+        "projectPath": "D:\\API_Udemy\\src\\API.CrossCutting\\CrossCutting.csproj",
         "packagesPath": "C:\\Users\\ossBr\\.nuget\\packages\\",
-        "outputPath": "d:\\API_Udemy\\src\\API.CrossCutting\\obj\\",
+        "outputPath": "D:\\API_Udemy\\src\\API.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -111,14 +111,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "d:\\API_Udemy\\src\\API.Data\\Data.csproj": {
-                "projectPath": "d:\\API_Udemy\\src\\API.Data\\Data.csproj"
+              "D:\\API_Udemy\\src\\API.Data\\Data.csproj": {
+                "projectPath": "D:\\API_Udemy\\src\\API.Data\\Data.csproj"
               },
-              "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
-                "projectPath": "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
+              "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
+                "projectPath": "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
               },
-              "d:\\API_Udemy\\src\\API.Service\\Service.csproj": {
-                "projectPath": "d:\\API_Udemy\\src\\API.Service\\Service.csproj"
+              "D:\\API_Udemy\\src\\API.Service\\Service.csproj": {
+                "projectPath": "D:\\API_Udemy\\src\\API.Service\\Service.csproj"
               }
             }
           }
@@ -161,14 +161,14 @@
         }
       }
     },
-    "d:\\API_Udemy\\src\\API.Data\\Data.csproj": {
+    "D:\\API_Udemy\\src\\API.Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\API_Udemy\\src\\API.Data\\Data.csproj",
+        "projectUniqueName": "D:\\API_Udemy\\src\\API.Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "d:\\API_Udemy\\src\\API.Data\\Data.csproj",
+        "projectPath": "D:\\API_Udemy\\src\\API.Data\\Data.csproj",
         "packagesPath": "C:\\Users\\ossBr\\.nuget\\packages\\",
-        "outputPath": "d:\\API_Udemy\\src\\API.Data\\obj\\",
+        "outputPath": "D:\\API_Udemy\\src\\API.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -188,8 +188,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
-                "projectPath": "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
+              "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
+                "projectPath": "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
               }
             }
           }
@@ -244,14 +244,14 @@
         }
       }
     },
-    "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
+    "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj",
+        "projectPath": "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\ossBr\\.nuget\\packages\\",
-        "outputPath": "d:\\API_Udemy\\src\\API.Domain\\obj\\",
+        "outputPath": "D:\\API_Udemy\\src\\API.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -307,14 +307,14 @@
         }
       }
     },
-    "d:\\API_Udemy\\src\\API.Service\\Service.csproj": {
+    "D:\\API_Udemy\\src\\API.Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\API_Udemy\\src\\API.Service\\Service.csproj",
+        "projectUniqueName": "D:\\API_Udemy\\src\\API.Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "d:\\API_Udemy\\src\\API.Service\\Service.csproj",
+        "projectPath": "D:\\API_Udemy\\src\\API.Service\\Service.csproj",
         "packagesPath": "C:\\Users\\ossBr\\.nuget\\packages\\",
-        "outputPath": "d:\\API_Udemy\\src\\API.Service\\obj\\",
+        "outputPath": "D:\\API_Udemy\\src\\API.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -334,11 +334,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "d:\\API_Udemy\\src\\API.Data\\Data.csproj": {
-                "projectPath": "d:\\API_Udemy\\src\\API.Data\\Data.csproj"
+              "D:\\API_Udemy\\src\\API.Data\\Data.csproj": {
+                "projectPath": "D:\\API_Udemy\\src\\API.Data\\Data.csproj"
               },
-              "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
-                "projectPath": "d:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
+              "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj": {
+                "projectPath": "D:\\API_Udemy\\src\\API.Domain\\Domain.csproj"
               }
             }
           }
