@@ -153,5 +153,5 @@ d:\API_Udemy\src\API.Service.Test\bin\Debug\net5.0\Faker.NETCore.dll
 d:\API_Udemy\src\API.Service.Test\bin\Debug\net5.0\de-DE\Faker.NETCore.resources.dll
 d:\API_Udemy\src\API.Service.Test\bin\Debug\net5.0\CrossCutting.dll
 d:\API_Udemy\src\API.Service.Test\bin\Debug\net5.0\CrossCutting.pdb
-D:\API_Udemy\src\Api.Service.Test\obj\Debug\net5.0\Api.Service.Test.csproj.AssemblyReference.cache
-D:\API_Udemy\src\Api.Service.Test\obj\Debug\net5.0\refint\Api.Service.Test.dll
+d:\API_Udemy\src\API.Service.Test\bin\Debug\net5.0\ref\Api.Service.Test.dll
+d:\API_Udemy\src\API.Service.Test\obj\Debug\net5.0\Api.Service.Test.csprojAssemblyReference.cache
