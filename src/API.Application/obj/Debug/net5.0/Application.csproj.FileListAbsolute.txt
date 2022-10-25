@@ -51,7 +51,6 @@ D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Domain.pdb
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\CrossCutting.pdb
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Service.pdb
 D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Data.pdb
-D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.csproj.AssemblyReference.cache
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.AssemblyInfoInputs.cache
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.AssemblyInfo.cs
@@ -63,7 +62,9 @@ D:\API_Udemy\src\API.Application\obj\Debug\net5.0\staticwebassets\Application.St
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.RazorTargetAssemblyInfo.cache
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.csproj.CopyComplete
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.dll
-D:\API_Udemy\src\API.Application\obj\Debug\net5.0\refint\Application.dll
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.pdb
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.genruntimeconfig.cache
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\ref\Application.dll
+D:\API_Udemy\src\API.Application\bin\Debug\net5.0\Application.StaticWebAssets.xml
+D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.csproj.AssemblyReference.cache
+D:\API_Udemy\src\API.Application\obj\Debug\net5.0\refint\Application.dll
