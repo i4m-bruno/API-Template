@@ -8428,11 +8428,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\API_Udemy\\src\\API.Data.Test\\API.Data.Test.csproj",
-      "projectName": "API.Data.Test",
-      "projectPath": "D:\\API_Udemy\\src\\API.Data.Test\\API.Data.Test.csproj",
+      "projectUniqueName": "D:\\API_Udemy\\src\\Api.Data.Test\\Api.Data.Test.csproj",
+      "projectName": "Api.Data.Test",
+      "projectPath": "D:\\API_Udemy\\src\\Api.Data.Test\\Api.Data.Test.csproj",
       "packagesPath": "C:\\Users\\ossBr\\.nuget\\packages\\",
-      "outputPath": "D:\\API_Udemy\\src\\API.Data.Test\\obj\\",
+      "outputPath": "D:\\API_Udemy\\src\\Api.Data.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8521,7 +8521,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
       }
     }
   }

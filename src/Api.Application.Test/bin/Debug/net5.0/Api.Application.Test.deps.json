@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "API.Application.Test/1.0.0": {
+      "Api.Application.Test/1.0.0": {
         "dependencies": {
           "Application": "1.0.0",
           "Domain": "1.0.0",
@@ -19,7 +19,7 @@
           "xunit.runner.visualstudio": "2.4.3"
         },
         "runtime": {
-          "API.Application.Test.dll": {}
+          "Api.Application.Test.dll": {}
         }
       },
       "AutoMapper/10.1.1": {
@@ -1746,7 +1746,7 @@
     }
   },
   "libraries": {
-    "API.Application.Test/1.0.0": {
+    "Api.Application.Test/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D3nZf6hj6lF3s/aSnhXKlGRkGRBcnAeuUiVTm7e2GsUyY947+LAzC/p2JAnOhJ5rihIn9MWqkB5lC+3pqNFeMw==",
+  "dgSpecHash": "QFXlNM8lTlz4rtolJeX96b6NsligFvekX/NWdXXQwIA91XYc5FTX1UGe9gzvoeJuBFP+L3QkLy0GQPIrW/ZQBg==",
   "success": true,
-  "projectFilePath": "D:\\API_Udemy\\src\\API.Service.Test\\API.Service.Test.csproj",
+  "projectFilePath": "D:\\API_Udemy\\src\\API.Service.Test\\Api.Service.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ossBr\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\ossBr\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
