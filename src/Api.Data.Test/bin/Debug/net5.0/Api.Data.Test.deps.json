@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Api.Data.Test/1.0.0": {
+      "API.Data.Test/1.0.0": {
         "dependencies": {
           "Application": "1.0.0",
           "CrossCutting": "1.0.0",
@@ -20,7 +20,7 @@
           "xunit.runner.visualstudio": "2.4.3"
         },
         "runtime": {
-          "Api.Data.Test.dll": {}
+          "API.Data.Test.dll": {}
         }
       },
       "AutoMapper/10.1.1": {
@@ -1722,7 +1722,7 @@
     }
   },
   "libraries": {
-    "Api.Data.Test/1.0.0": {
+    "API.Data.Test/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

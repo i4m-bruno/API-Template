@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\API_Udemy\\src\\API.Application.Test\\Api.Application.Test.csproj": {}
+    "D:\\API_Udemy\\src\\API.Application.Test\\API.Application.Test.csproj": {}
   },
   "projects": {
-    "D:\\API_Udemy\\src\\API.Application.Test\\Api.Application.Test.csproj": {
+    "D:\\API_Udemy\\src\\API.Application.Test\\API.Application.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\API_Udemy\\src\\API.Application.Test\\Api.Application.Test.csproj",
-        "projectName": "Api.Application.Test",
-        "projectPath": "D:\\API_Udemy\\src\\API.Application.Test\\Api.Application.Test.csproj",
+        "projectUniqueName": "D:\\API_Udemy\\src\\API.Application.Test\\API.Application.Test.csproj",
+        "projectName": "API.Application.Test",
+        "projectPath": "D:\\API_Udemy\\src\\API.Application.Test\\API.Application.Test.csproj",
         "packagesPath": "C:\\Users\\ossBr\\.nuget\\packages\\",
         "outputPath": "D:\\API_Udemy\\src\\API.Application.Test\\obj\\",
         "projectStyle": "PackageReference",
@@ -97,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -177,7 +177,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -254,7 +254,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -337,7 +337,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -400,7 +400,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -474,7 +474,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     }

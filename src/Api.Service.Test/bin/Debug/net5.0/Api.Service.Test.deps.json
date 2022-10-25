@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Api.Service.Test/1.0.0": {
+      "API.Service.Test/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
@@ -21,7 +21,7 @@
           "xunit.runner.visualstudio": "2.4.3"
         },
         "runtime": {
-          "Api.Service.Test.dll": {}
+          "API.Service.Test.dll": {}
         }
       },
       "AutoMapper/10.1.1": {
@@ -1768,7 +1768,7 @@
     }
   },
   "libraries": {
-    "Api.Service.Test/1.0.0": {
+    "API.Service.Test/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
