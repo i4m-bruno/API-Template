@@ -13,7 +13,7 @@ D:\API_Udemy\src\API.CrossCutting\obj\Debug\net5.0\CrossCutting.AssemblyInfo.cs
 D:\API_Udemy\src\API.CrossCutting\obj\Debug\net5.0\CrossCutting.csproj.CoreCompileInputs.cache
 D:\API_Udemy\src\API.CrossCutting\obj\Debug\net5.0\CrossCutting.csproj.CopyComplete
 D:\API_Udemy\src\API.CrossCutting\obj\Debug\net5.0\CrossCutting.dll
-D:\API_Udemy\src\API.CrossCutting\obj\Debug\net5.0\CrossCutting.pdb
 D:\API_Udemy\src\API.CrossCutting\obj\Debug\net5.0\ref\CrossCutting.dll
+D:\API_Udemy\src\API.CrossCutting\obj\Debug\net5.0\CrossCutting.pdb
 D:\API_Udemy\src\API.CrossCutting\obj\Debug\net5.0\CrossCutting.csproj.AssemblyReference.cache
 D:\API_Udemy\src\API.CrossCutting\obj\Debug\net5.0\refint\CrossCutting.dll

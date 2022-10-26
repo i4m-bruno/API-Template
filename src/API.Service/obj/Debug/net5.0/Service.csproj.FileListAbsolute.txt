@@ -11,7 +11,7 @@ D:\API_Udemy\src\API.Service\obj\Debug\net5.0\Service.AssemblyInfo.cs
 D:\API_Udemy\src\API.Service\obj\Debug\net5.0\Service.csproj.CoreCompileInputs.cache
 D:\API_Udemy\src\API.Service\obj\Debug\net5.0\Service.csproj.CopyComplete
 D:\API_Udemy\src\API.Service\obj\Debug\net5.0\Service.dll
-D:\API_Udemy\src\API.Service\obj\Debug\net5.0\Service.pdb
 D:\API_Udemy\src\API.Service\obj\Debug\net5.0\ref\Service.dll
+D:\API_Udemy\src\API.Service\obj\Debug\net5.0\Service.pdb
 D:\API_Udemy\src\API.Service\obj\Debug\net5.0\Service.csproj.AssemblyReference.cache
 D:\API_Udemy\src\API.Service\obj\Debug\net5.0\refint\Service.dll
