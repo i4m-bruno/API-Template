@@ -17,19 +17,18 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Moq" Version="4.18.2" />
-  </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="AutoMapper" Version="10.1.1" />
       <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
       <PackageReference Include="Faker.NETCore" Version="1.0.2" />
-    </ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+      <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="5.0.17" />
+  </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\API.Service\Service.csproj" />
-    <ProjectReference Include="..\API.CrossCutting\CrossCutting.csproj" />
+    <ProjectReference Include="..\API.Data\Data.csproj" />
     <ProjectReference Include="..\API.Domain\Domain.csproj" />
+    <ProjectReference Include="..\API.CrossCutting\CrossCutting.csproj" />
+    <ProjectReference Include="..\API.Application\Application.csproj" />
   </ItemGroup>
 
 </Project>
