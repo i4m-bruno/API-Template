@@ -29,21 +29,22 @@ namespace Application
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            if (_environment.IsEnvironment("Testing"))
+            {
+                Environment.SetEnvironmentVariable("DB_CON","Server=BRUNO_PC\\BRUNO_SQLEXPRESS;Database=dbApiTeste;User Id=sa;Password=bruno-9211;");
+                Environment.SetEnvironmentVariable("DATABASE","SQLSERVER");
+                Environment.SetEnvironmentVariable("Audience","ExemploAudience");
+                Environment.SetEnvironmentVariable("Issuer","ExemploIssuer");
+                Environment.SetEnvironmentVariable("Seconds","28800");
+            }
+
             ConfigureService.ConfigureDependenciesService(services);
             ConfigureRepository.ConfigureDependenciesRepository(services);
 
             var signingConfig = new SigningConfigurations();
             services.AddSingleton(signingConfig);
 
-            var tokenConfig = new TokenConfigurations();
-
-            new ConfigureFromConfigurationOptions<TokenConfigurations> // configura servico a partir de appSettings.json
-                        (Configuration.GetSection("TokenConfigurations"))
-                        .Configure(tokenConfig);
-            
-            services.AddSingleton(tokenConfig);
-
-            var bearerConfig = new BearerConfig(services,signingConfig,tokenConfig);
+            var bearerConfig = new BearerConfig(services,signingConfig);
             bearerConfig.AddAuth();
 
             var mapConfig = new MapperConfig(services);
@@ -92,15 +93,6 @@ namespace Application
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (_environment.IsEnvironment("Testing"))
-            {
-                Environment.SetEnvironmentVariable("DB_CON","Server=BRUNO_PC\\BRUNO_SQLEXPRESS;Database=dbApiTeste;User Id=sa;Password=bruno-9211;");
-                Environment.SetEnvironmentVariable("DATABASE","SQLSERVER");
-                Environment.SetEnvironmentVariable("Audience","ExemploAudience");
-                Environment.SetEnvironmentVariable("Issuer","ExemploIssuer");
-                Environment.SetEnvironmentVariable("Seconds","28800");
-            }
-
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -124,7 +116,7 @@ namespace Application
             });
 
             // rodar migrações
-            if(Environment.GetEnvironmentVariable("MIGRATION").ToLower() == "sim")
+            if(!_environment.IsEnvironment("Testing") && Environment.GetEnvironmentVariable("MIGRATION").ToLower() == "sim")
             {
                 using ( var service = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>()
                                                              .CreateScope())

@@ -13,6 +13,7 @@ D:\API_Udemy\src\API.Application.Test\bin\Debug\net5.0\Api.Application.Test.deps
 D:\API_Udemy\src\API.Application.Test\bin\Debug\net5.0\Api.Application.Test.runtimeconfig.json
 D:\API_Udemy\src\API.Application.Test\bin\Debug\net5.0\Api.Application.Test.runtimeconfig.dev.json
 D:\API_Udemy\src\API.Application.Test\bin\Debug\net5.0\Api.Application.Test.dll
+D:\API_Udemy\src\API.Application.Test\bin\Debug\net5.0\ref\Api.Application.Test.dll
 D:\API_Udemy\src\API.Application.Test\bin\Debug\net5.0\Api.Application.Test.pdb
 D:\API_Udemy\src\API.Application.Test\bin\Debug\net5.0\AutoMapper.dll
 D:\API_Udemy\src\API.Application.Test\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
@@ -138,11 +139,12 @@ D:\API_Udemy\src\API.Application.Test\bin\Debug\net5.0\CrossCutting.dll
 D:\API_Udemy\src\API.Application.Test\bin\Debug\net5.0\Data.dll
 D:\API_Udemy\src\API.Application.Test\bin\Debug\net5.0\Domain.dll
 D:\API_Udemy\src\API.Application.Test\bin\Debug\net5.0\Service.dll
-D:\API_Udemy\src\API.Application.Test\bin\Debug\net5.0\Application.pdb
 D:\API_Udemy\src\API.Application.Test\bin\Debug\net5.0\Service.pdb
 D:\API_Udemy\src\API.Application.Test\bin\Debug\net5.0\Domain.pdb
+D:\API_Udemy\src\API.Application.Test\bin\Debug\net5.0\Application.pdb
 D:\API_Udemy\src\API.Application.Test\bin\Debug\net5.0\CrossCutting.pdb
 D:\API_Udemy\src\API.Application.Test\bin\Debug\net5.0\Data.pdb
+D:\API_Udemy\src\API.Application.Test\obj\Debug\net5.0\Api.Application.Test.csprojAssemblyReference.cache
 D:\API_Udemy\src\API.Application.Test\obj\Debug\net5.0\Api.Application.Test.GeneratedMSBuildEditorConfig.editorconfig
 D:\API_Udemy\src\API.Application.Test\obj\Debug\net5.0\Api.Application.Test.AssemblyInfoInputs.cache
 D:\API_Udemy\src\API.Application.Test\obj\Debug\net5.0\Api.Application.Test.AssemblyInfo.cs
@@ -152,5 +154,3 @@ D:\API_Udemy\src\API.Application.Test\obj\Debug\net5.0\Api.Application.Test.dll
 D:\API_Udemy\src\API.Application.Test\obj\Debug\net5.0\ref\Api.Application.Test.dll
 D:\API_Udemy\src\API.Application.Test\obj\Debug\net5.0\Api.Application.Test.pdb
 D:\API_Udemy\src\API.Application.Test\obj\Debug\net5.0\Api.Application.Test.genruntimeconfig.cache
-D:\API_Udemy\src\API.Application.Test\obj\Debug\net5.0\Api.Application.Test.csproj.AssemblyReference.cache
-D:\API_Udemy\src\API.Application.Test\obj\Debug\net5.0\refint\Api.Application.Test.dll

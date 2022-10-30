@@ -10,12 +10,10 @@ namespace API.Application.Configs
     {
         private readonly IServiceCollection _service;
         private readonly SigningConfigurations _signingConfig;
-        private readonly TokenConfigurations _tokenConfig;
-        public BearerConfig(IServiceCollection service, SigningConfigurations signingConfig, TokenConfigurations tokenConfig)
+        public BearerConfig(IServiceCollection service, SigningConfigurations signingConfig)
         {
             _service = service;
             _signingConfig = signingConfig;
-            _tokenConfig = tokenConfig;
         }
 
         public void AddAuth()
@@ -28,8 +26,8 @@ namespace API.Application.Configs
             .AddJwtBearer(bearerOpt => {
                 var paramsOptions = bearerOpt.TokenValidationParameters;
                 paramsOptions.IssuerSigningKey = _signingConfig.Key;
-                paramsOptions.ValidAudience = _tokenConfig.Audience;
-                paramsOptions.ValidIssuer = _tokenConfig.Issuer;
+                paramsOptions.ValidAudience = Environment.GetEnvironmentVariable("Audience");
+                paramsOptions.ValidIssuer = Environment.GetEnvironmentVariable("Issuer");
                 paramsOptions.ValidateIssuerSigningKey =  true;
                 paramsOptions.ValidateLifetime = true;
                 paramsOptions.ClockSkew = TimeSpan.Zero;
