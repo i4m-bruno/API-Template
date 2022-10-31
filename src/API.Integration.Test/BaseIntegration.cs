@@ -54,7 +54,7 @@ namespace Api.Integration.Test
 
         }
 
-        private static async Task<HttpResponseMessage> PostJsonAsync(object dataClass, string url, HttpClient client)
+        protected static async Task<HttpResponseMessage> PostJsonAsync(object dataClass, string url, HttpClient client)
         {
             return await client.PostAsync(url,
                                 new StringContent(JsonConvert.SerializeObject(dataClass), System.Text.Encoding.UTF8, "application/json" ));
