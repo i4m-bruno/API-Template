@@ -7,7 +7,6 @@ D:\API_Udemy\src\API.Service.Test\bin\Debug\net5.0\Api.Service.Test.deps.json
 D:\API_Udemy\src\API.Service.Test\bin\Debug\net5.0\Api.Service.Test.runtimeconfig.json
 D:\API_Udemy\src\API.Service.Test\bin\Debug\net5.0\Api.Service.Test.runtimeconfig.dev.json
 D:\API_Udemy\src\API.Service.Test\bin\Debug\net5.0\Api.Service.Test.dll
-D:\API_Udemy\src\API.Service.Test\bin\Debug\net5.0\ref\Api.Service.Test.dll
 D:\API_Udemy\src\API.Service.Test\bin\Debug\net5.0\Api.Service.Test.pdb
 D:\API_Udemy\src\API.Service.Test\bin\Debug\net5.0\AutoMapper.dll
 D:\API_Udemy\src\API.Service.Test\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
@@ -145,7 +144,6 @@ D:\API_Udemy\src\API.Service.Test\bin\Debug\net5.0\Service.pdb
 D:\API_Udemy\src\API.Service.Test\bin\Debug\net5.0\CrossCutting.pdb
 D:\API_Udemy\src\API.Service.Test\bin\Debug\net5.0\Domain.pdb
 D:\API_Udemy\src\API.Service.Test\bin\Debug\net5.0\Data.pdb
-D:\API_Udemy\src\API.Service.Test\obj\Debug\net5.0\Api.Service.Test.csprojAssemblyReference.cache
 D:\API_Udemy\src\API.Service.Test\obj\Debug\net5.0\Api.Service.Test.GeneratedMSBuildEditorConfig.editorconfig
 D:\API_Udemy\src\API.Service.Test\obj\Debug\net5.0\Api.Service.Test.AssemblyInfoInputs.cache
 D:\API_Udemy\src\API.Service.Test\obj\Debug\net5.0\Api.Service.Test.AssemblyInfo.cs
@@ -155,3 +153,5 @@ D:\API_Udemy\src\API.Service.Test\obj\Debug\net5.0\Api.Service.Test.dll
 D:\API_Udemy\src\API.Service.Test\obj\Debug\net5.0\ref\Api.Service.Test.dll
 D:\API_Udemy\src\API.Service.Test\obj\Debug\net5.0\Api.Service.Test.pdb
 D:\API_Udemy\src\API.Service.Test\obj\Debug\net5.0\Api.Service.Test.genruntimeconfig.cache
+D:\API_Udemy\src\API.Service.Test\bin\Debug\net5.0\ref\Api.Service.Test.dll
+D:\API_Udemy\src\API.Service.Test\obj\Debug\net5.0\Api.Service.Test.csprojAssemblyReference.cache
