@@ -2,7 +2,7 @@ using System;
 
 namespace API.Domain.Dtos.Cep
 {
-    public class CepDtocreateResult
+    public class CepDtoCreateResult
     {
         public string Cep { get; set; }
         public string Logradouro { get; set; }
