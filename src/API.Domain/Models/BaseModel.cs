@@ -1,0 +1,27 @@
+using System;
+
+namespace API.Domain.Models
+{
+    public abstract class BaseModel
+    {
+        private Guid _id;
+        public Guid Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
+        private DateTime _createAt;
+        public DateTime CreateAt
+        {
+            get { return _createAt; }
+            set { _createAt = value.Equals("") ? DateTime.UtcNow : value; }
+        }
+        
+        private DateTime _updateAt;
+        public DateTime UpdateAt
+        {
+            get { return _updateAt; }
+            set { _updateAt = value; }
+        }
+    }
+}
