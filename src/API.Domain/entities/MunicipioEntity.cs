@@ -6,6 +6,11 @@ namespace API.Domain.entities
 {
     public class MunicipioEntity : BaseEntity
     {
+        public MunicipioEntity()
+        {
+            Id = Guid.NewGuid();
+        }
+        
         [Required]
         [MaxLength(60)]
         public string Nome { get; set; }

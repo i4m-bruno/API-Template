@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Api.Data.Test;
@@ -21,7 +20,7 @@ namespace API.Data.Test
 
         [Fact]
         [Trait("Gets","UfEntity")]
-        public async Task E_Possivel_Realizar_Gets()
+        public void E_Possivel_Realizar_Gets()
         {
             using(var context = _serviceProvider.GetService<MyContext>())
             {
