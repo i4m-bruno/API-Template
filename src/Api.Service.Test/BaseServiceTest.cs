@@ -23,9 +23,9 @@ namespace Api.Service.Test
         {
             var config = new MapperConfiguration(cfg =>
             {
-                cfg.AddProfile(new UserDtoToModelProfile());
-                cfg.AddProfile(new UserModelToEntity());
-                cfg.AddProfile(new UserEntityToDtoProfile());
+                cfg.AddProfile(new DtoToModelProfile());
+                cfg.AddProfile(new ModelToEntity());
+                cfg.AddProfile(new EntityToDtoProfile());
             });
 
             return config.CreateMapper();

@@ -1,7 +1,5 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using Api.Data.Test;
 using API.Data.Context;
 using API.Data.Implementations.Cep;

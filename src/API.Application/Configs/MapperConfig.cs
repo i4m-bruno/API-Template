@@ -16,9 +16,9 @@ namespace API.Application.Configs
         {
             var config = new AutoMapper.MapperConfiguration(cfg =>
             {
-                cfg.AddProfile(new UserDtoToModelProfile());
-                cfg.AddProfile(new UserEntityToDtoProfile());
-                cfg.AddProfile(new UserModelToEntity());
+                cfg.AddProfile(new DtoToModelProfile());
+                cfg.AddProfile(new EntityToDtoProfile());
+                cfg.AddProfile(new ModelToEntity());
             });
 
             IMapper mapper = config.CreateMapper();

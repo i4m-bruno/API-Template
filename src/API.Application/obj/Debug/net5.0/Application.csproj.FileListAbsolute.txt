@@ -65,6 +65,5 @@ D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.dll
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\ref\Application.dll
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.pdb
 D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.genruntimeconfig.cache
-D:\API_Udemy\src\API.Application\bin\Debug\net5.0\ref\Application.dll
-D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.csprojAssemblyReference.cache
-D:\API_Udemy\src\API.Application\obj\Debug\net5.0\staticwebassets\Application.StaticWebAssets.xml
+D:\API_Udemy\src\API.Application\obj\Debug\net5.0\Application.csproj.AssemblyReference.cache
+D:\API_Udemy\src\API.Application\obj\Debug\net5.0\refint\Application.dll
