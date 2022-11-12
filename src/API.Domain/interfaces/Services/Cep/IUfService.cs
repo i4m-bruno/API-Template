@@ -5,7 +5,7 @@ using API.Domain.Dtos.UF;
 
 namespace API.Domain.interfaces.Services.Cep
 {
-    public interface UfService
+    public interface IUfService
     {
         Task<UfDto> GetUf(Guid UfId);
         Task<IEnumerable<UfDto>> ListUfs();
