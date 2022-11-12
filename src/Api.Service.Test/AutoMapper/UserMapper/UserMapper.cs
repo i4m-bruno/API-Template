@@ -1,7 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using API.Domain.Dtos.User;
 using API.Domain.entities;
 using API.Domain.Models;
@@ -11,7 +8,7 @@ namespace Api.Service.Test.AutoMapper.UserMapper
 {
     public class UserMapper : BaseServiceTest
     {
-        [Fact(DisplayName = "AutoMapper passou em todos os testes")]
+        [Fact(DisplayName = "Mapping de user passou em todos os testes")]
         public void Mapper_OK()
         {
             var model = new UserModel()
