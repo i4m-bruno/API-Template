@@ -5,7 +5,7 @@ namespace API.Domain.Dtos.Cep
 {
     public class CepDto
     {
-        public Guid CepId { get; set; }
+        public Guid Id { get; set; }
         public string Cep { get; set; }
         public string Logradouro { get; set; }
         public string Numero { get; set; }

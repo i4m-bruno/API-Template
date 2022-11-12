@@ -6,7 +6,7 @@ namespace API.Domain.Dtos.Cep
     public class CepDtoUpdate
     {
         [Required(ErrorMessage = "CepId é campo obrigatório")]
-        public string CepId { get; set; }
+        public Guid Id { get; set; }
         
         [Required(ErrorMessage = "Cep é campo obrigatório")]
         public string Cep { get; set; }
